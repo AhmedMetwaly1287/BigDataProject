@@ -1,0 +1,438 @@
+Type,Location,Date,CrashesInYear,CrashesInPlace,FailureRate
+ATR-72-202,Italy,2005,14,16,1
+ATR-72-212,Indiana,1994,21,5,1
+Aero Commander  520,Alaska,1956,10,26,1
+Aerospatiale Alenia ATR-42,Kosovo,1999,28,1,1
+Aerospatiale BAe Concorde 101,France,2000,25,17,1
+Aerospatiale Caravelle Super 10B,United Arab Emirates,1972,17,3,1
+Aerospatiale Nord 262A-33,California,1979,12,43,1
+Airbus A-310-204,Thailand,1998,20,10,1
+Airbus A-310-324ET,Russia,2006,11,25,1
+Airbus A-320-233,Brazil,2007,10,12,2
+Airbus A-320-233,Honduras,2008,9,2,2
+Airbus A-330-243,Azores,2001,25,2,1
+Airbus A-340,Canada,2005,14,13,1
+Airbus A.320-214,Philippines,1998,20,16,1
+Airbus A300-622R,Taiwan,1998,20,9,1
+Airbus A300B2-1C,Algeria,1994,21,3,1
+Airbus A300B4-203,Nepal,1992,16,6,1
+Airbus A300B4-622R,Aichi,1994,21,1,2
+Airbus A300B4-622R,South Korea,1994,21,3,2
+Airbus A310-304,Nepal,1992,16,6,2
+Airbus A310-304,Russia,1994,21,25,2
+Airbus A320-211,Russia,2006,11,25,2
+Airbus A320-212,Bahrain,2000,25,1,1
+Airbus A330-203,570 miles northeast of Natal,2009,6,1,1
+Airspeed Ambassador A5-57,Germany,1958,9,4,1
+Antonov AN-140-100,Azerbaijan,2005,14,1,1
+Antonov AN-24,Cuba,1997,25,4,1
+Antonov AN-24 / Yakovlev Yak-40,Russia,1976,10,25,1
+Antonov AN-24B,Egypt,1966,18,6,3
+Antonov AN-24B,Italy,1995,19,16,3
+Antonov AN-24RV,Russia,1997,25,25,2
+Antonov AN-24RV,Sri Lanka,1998,20,1,2
+Antonov AN-26,Russia,2002,24,25,1
+BAC One Eleven 204AF,Pennsylvania,1967,18,14,1
+BAC One-Eleven 525FT,Nigeria,2002,24,7,1
+BAC One-Eleven 528FL,England,1990,14,7,1
+BAC One-Eleven 529FR,Argentina,1981,6,2,1
+BAC VC-10-1101,Nigeria,1969,14,7,1
+BAe 146-200,Norway,2006,11,4,1
+BAe 3101 Jetstream 31,Venezuela,2004,18,8,1
+BAe HS-748-232 Srs 2A,Gabon,2004,18,1,1
+BAe Jetstream 3101-31,Pennsylvania,2000,25,14,1
+Bae Jetstream 3201,Missouri,2004,18,9,1
+Beech King Air 65-A90,Michigan,1999,28,10,1
+Beech Queen Air 65-A80,Alaska,1985,16,26,1
+Beechcraft 1900C,Alaska,1987,12,26,3
+Beechcraft 1900C,Montana,2008,9,8,3
+Beechcraft 1900D / Cessna 177,France,1998,20,17,1
+Beechcraft 99,Belgium,1999,28,2,4
+Beechcraft 99,Maine,1985,16,3,4
+Beechcraft Bonanza 35,Iowa,1959,17,8,1
+Beechcraft King Air A100,Minnesota,2002,24,6,1
+Bell BHT-206-B Helicopter,Wisconsin,1990,14,4,1
+Boeing 247-D,California,1936,5,43,1
+Boeing 377 Stratocruiser,Brazil,1952,7,12,1
+Boeing 727-243F,Nepal,1999,28,6,1
+Boeing 737-2D6C,England,1994,21,7,1
+Boeing 737-31S,Greece,2005,14,5,1
+Boeing 737-4Q8,Turkey,1999,28,8,1
+Boeing 747-244B-SF,Nova Scotia,2004,18,2,1
+Boeing 747-2B5F,United Kingdom,1999,28,1,1
+Boeing 767-223ER,New York,2001,25,32,1
+Boeing B-707 (E-3B),Alaska,1995,19,26,1
+Boeing B-707-131B / L1049C Constellation,New York,1965,18,32,1
+Boeing B-707-321B,Italy,1973,15,16,5
+Boeing B-707-321B,Venezuela,1968,17,8,5
+Boeing B-707-321C,Massachusett,1973,15,3,2
+Boeing B-707-323 / Cessna 150,New Jersey,1971,12,5,1
+Boeing B-707-328,Guadaloupe,1962,17,1,1
+Boeing B-707-331B,Azores,1989,21,2,3
+Boeing B-707-331B,California,1973,15,43,3
+Boeing B-707-338C,Italy,1988,18,16,1
+Boeing B-707-340C,Jeddah,1979,12,1,1
+Boeing B-707-344C,South Africa (Namibia),1968,17,1,1
+Boeing B-707-465,London,1968,17,1,1
+Boeing B-720-040B,Egypt,1965,18,6,1
+Boeing B-720-047B,California,1971,12,43,1
+Boeing B-727-121C,Vietnam,1974,11,3,1
+Boeing B-727-214 / Cessna 172,California,1978,11,43,1
+Boeing B-727-22,Utah,1965,18,9,2
+Boeing B-727-223,Benin,2003,20,1,1
+Boeing B-727-224,Colorado,1975,5,11,3
+Boeing B-727-225 Adv,Bolivia,1985,16,2,1
+Boeing B-727-231,Nigeria,1996,20,7,2
+Boeing B-727-231,Virginia,1974,11,11,2
+Boeing B-727-256,Vizcaya,1985,16,1,1
+Boeing B-727-264,Mexico,1986,9,7,1
+Boeing B-727-281 / Air Force F86F,Japan,1971,12,10,1
+Boeing B-727-2A7,Virgin Islands,1970,13,3,1
+Boeing B-727-64,Canary Islands,1980,7,2,2
+Boeing B-727-81,Japan,1966,18,10,2
+Boeing B-727-92C,Taiwan,1968,17,9,1
+Boeing B-727-95,Virgin Islands,1976,10,3,1
+Boeing B-737-222,D.C.,1982,12,2,4
+Boeing B-737-222,Miao-li,1981,6,1,4
+Boeing B-737-222,Midway Airport,1972,17,1,4
+Boeing B-737-222,Peru,1996,20,8,4
+Boeing B-737-230A,Turkey,1988,18,8,1
+Boeing B-737-236,England,1985,16,7,1
+Boeing B-737-241,Brazil,1989,21,12,1
+Boeing B-737-275,British Columbia,1978,11,8,1
+Boeing B-737-2A8 Advanced,India,2000,25,8,1
+Boeing B-737-2C3,Brazil,1997,25,12,1
+Boeing B-737-2F9,Nigeria,1995,19,7,1
+Boeing B-737-2H4,Philippines,2000,25,16,1
+Boeing B-737-2H6,near Kampung Ladang,1977,7,1,2
+Boeing B-737-3Q8,Egypt,2004,18,6,2
+Boeing B-737-3Q8,Indonesia,2002,24,18,2
+Boeing B-737-3T5,Calilfornia,2000,25,1,1
+Boeing B-737-401,New York,1989,21,32,1
+Boeing B-737-497,Indonesia,2007,10,18,1
+Boeing B-737-4Y0,England,1989,21,7,2
+Boeing B-737-4Y0,Turkey,1994,21,8,2
+Boeing B-737-505,Russia,2008,9,25,1
+Boeing B-737-566,Tunisia,2002,24,1,1
+Boeing B-737-8EH /EMB-135JB,Brazil,2006,11,12,1
+Boeing B-747-121,California,1971,12,43,2
+Boeing B-747-121A,Scotland,1988,18,3,1
+Boeing B-747-122,Hawaii,1989,21,8,2
+Boeing B-747-131,New York,1996,20,32,1
+Boeing B-747-131F,Spain,1976,10,11,1
+Boeing B-747-230B,Russia,1983,11,25,1
+Boeing B-747-244B,Indian Ocean,1987,12,1,1
+Boeing B-747-258F,Netherlands,1992,16,4,1
+Boeing B-747-283B,Spain,1983,11,11,1
+Boeing B-747-412,Taiwan,2000,25,9,1
+Boeing B-747-SR46,near Ueno Village,1985,16,1,1
+Boeing B-757-200,Peru,1996,20,8,1
+Boeing B-757-222,Pennsylvania,2001,25,14,1
+Boeing B-757-223,Virginia.,2001,25,1,2
+Boeing B-767-200ER,South Korea,2002,24,3,2
+Boeing B-767-366ER,Massachusetts,1999,28,6,1
+Bombardier DHC-8-402 Q400,New York,2009,6,32,1
+Bristol Britannia 102,Slovenia,1966,18,1,1
+British Aerospace  BAe Jetstream 32EP,Mexico,2000,25,7,1
+British Aerospace 3101 Jetstream 31,Washington,1989,21,11,1
+British Aerospace BAe-125-800A,Minnesota,2008,9,6,1
+British Aerospace BAe-146-100,Morroco,1998,20,1,1
+CASA 212 Aviocar 200,Costa Rica,1990,14,3,3
+CASA 212 Aviocar 200,Michigan,1987,12,10,3
+CASA 212 Aviocar 200,Puerto Rico,1987,12,5,3
+Canadair CL-601-2A12 Challenger,Colorado,2004,18,11,1
+Canadair CRJ-200ER,Kentucky,2006,11,2,1
+Casa 212-AB10 Aviocar,Chile,2000,25,4,1
+Cessna 207 Skywagon,New Zealand,2002,24,6,1
+Cessna 208A Caravan I Cargomaster,Colorado,1990,14,11,1
+Cessna 208B Caravan I,Alaska,1997,25,26,3
+Cessna 208B Caravan I Super Cargomaster,British Columbia,1998,20,8,5
+Cessna 208B Caravan I Super Cargomaster,Washington,2000,25,11,5
+Cessna 208B Cargomaster I,Alabama,2002,24,5,1
+Cessna 208B Grand Caravan,Nicaragua,1999,28,1,4
+Cessna 402B,Bahamas,2001,25,1,1
+Cessna 404 Titan Ambassador,Scotland,1999,28,3,1
+Cessna P210N,California,2005,14,43,1
+Convair 600,Arkansas,1973,15,3,1
+Convair CV-240,California,1957,10,43,2
+Convair CV-240,Wyoming,1954,8,8,2
+Convair CV-340,Iowa,1955,11,8,1
+Convair CV-440,California,1974,11,43,1
+Convair CV-440-0,Germany,1966,18,4,1
+Convair CV-580,Illinois,1968,17,14,7
+Convair CV-580F,New Zealand,2003,20,6,1
+Convair CV-880-22M-3,China,1967,18,12,1
+Convair CV-990-30A-6,Switzerland,1970,13,5,1
+Curtiss C-46,Colombia,1960,17,12,3
+Curtiss C-46A-50-CU,New York,1951,12,32,1
+Curtiss C-46F-1CU,California,1952,7,43,1
+Dornier 228-212,Malaysia,1997,25,1,1
+Dornier DO-228-212,Taiwan,1997,25,9,1
+Douglas C-47A-80-DL,Colombia,1966,18,12,1
+Douglas C-47A-DL,California,1959,17,43,1
+Douglas C-53-DO (DC-3A),Utah,1965,18,9,1
+Douglas C-53D-DO (DC-3),California,1946,13,43,1
+Douglas C-54,Washingon,1955,11,1,1
+Douglas C-54A,Quebec,1959,17,1,3
+Douglas C-54A-DC,Montana,1960,17,8,1
+Douglas C-54B,Alaska,1959,17,26,3
+Douglas C-54B,Washington,1957,10,11,3
+Douglas C-54B-15-DO,Maryland,1947,11,6,1
+Douglas DC-2,Florida,1937,6,12,1
+Douglas DC-2-112,Cailifornia,1938,6,1,6
+Douglas DC-2-112,Pennsylvania,1937,6,14,6
+Douglas DC-3,Aaland Island,1963,17,1,53
+Douglas DC-3,Brazil,1957,10,12,53
+Douglas DC-3,California,1944,4,43,53
+Douglas DC-3,California,1969,14,43,53
+Douglas DC-3,Ethiopia,1960,17,3,53
+Douglas DC-3,Finland,1961,14,1,53
+Douglas DC-3,Georgia,1941,5,6,53
+Douglas DC-3,Greece,1959,17,5,53
+Douglas DC-3,Indiana,1951,12,5,53
+Douglas DC-3,Indonesia,1961,14,18,53
+Douglas DC-3,Iowa,1951,12,8,53
+Douglas DC-3,Iowa,1954,8,8,53
+Douglas DC-3,Kentucky,1943,6,2,53
+Douglas DC-3,New Zealand,1963,17,6,53
+Douglas DC-3,Pennsylvania,1954,8,14,53
+Douglas DC-3,Philippines,1965,18,16,53
+Douglas DC-3,Philippines,1965,18,16,53
+Douglas DC-3,South Carolina,1945,9,2,53
+Douglas DC-3,Tennessee,1959,17,4,53
+Douglas DC-3,Thailand,1967,18,10,53
+Douglas DC-3,Virginia,1945,9,11,53
+Douglas DC-3,Virginia,1947,11,11,53
+Douglas DC-3,West Virginia,1945,9,5,53
+Douglas DC-3,Western Samoa,1970,13,1,53
+Douglas DC-3,Wyoming,1946,13,8,53
+Douglas DC-3,near Santa Barbara,1951,12,1,53
+Douglas DC-3 (C-47-A5-DL),Nevada,1946,13,5,1
+Douglas DC-3 (C-53D-DO),Ohio,1946,13,9,1
+Douglas DC-3-201C /  Army A-26,South Carolina,1945,9,2,1
+Douglas DC-3-3,Missouri,1941,5,9,1
+Douglas DC-3-A-269,Montana,1942,6,8,1
+Douglas DC-3A,California,1937,6,43,5
+Douglas DC-3A,Peru,1943,6,8,5
+Douglas DC-3A,Utah,1942,6,9,5
+Douglas DC-3C,Montana,1964,14,8,2
+Douglas DC-3C (C47A-DL),Venezuela,2001,25,8,1
+Douglas DC-3D,Taiwan,1969,14,9,1
+Douglas DC-4,Illinois,1948,7,14,8
+Douglas DC-4,Massachutes,1964,14,1,8
+Douglas DC-4,Texas,1947,11,13,8
+Douglas DC-4,Wyoming,1946,13,8,8
+Douglas DC-4,Wyoming,1955,11,8,8
+Douglas DC-4 (C-54-DO),Virginia,1947,11,11,1
+Douglas DC-4 /Beechcraft SMB-1,Florida,1951,12,12,1
+Douglas DC-4-1009,Greece,1947,11,5,2
+Douglas DC-4-1009,Pennsylvania,1951,12,14,2
+Douglas DC-6,Alabama,1953,11,5,5
+Douglas DC-6,California,1953,11,43,5
+Douglas DC-6,Utah,1947,11,9,5
+Douglas DC-6A,Alaska,1996,20,26,4
+Douglas DC-6A,New York,1957,10,32,4
+Douglas DC-6AB,Guam,1960,17,3,1
+Douglas DC-6B,Alaska,1956,10,26,11
+Douglas DC-6B,California,1953,11,43,11
+Douglas DC-6B,Chile,1965,18,4,11
+Douglas DC-6B,North Carolina,1960,17,7,11
+Douglas DC-6B,Zimbabwe,1958,9,1,11
+Douglas DC-6B,near Ft. Collins,1951,12,1,11
+Douglas DC-7 / Lockheed S Constellation,Arizona,1956,10,3,1
+Douglas DC-7C,Cameroon,1962,17,2,2
+Douglas DC-7CF,116 miles WSW of Annette Island,1963,17,1,1
+Douglas DC3-G102,Tennessee,1943,6,4,1
+Douglas DC9-15F,Mexico,2008,9,7,1
+Douglas DST-A-207A,Utah,1942,6,9,2
+EC-121H (Super Constellation),Massachusetts,1967,18,6,2
+Embraer 110 P1 Bandeirante,England,1995,19,7,1
+Embraer 110P1 Bandeirante,Canada,1997,25,13,5
+Embraer 110P1 Bandeirante,Florida,1984,5,12,5
+Embraer 110P1 Bandeirante,Michigan,1986,9,10,5
+Embraer 110P1 Bandeirante,South Africa,1988,18,3,5
+Embraer 120ER Brasilia,Brazil,2004,18,12,1
+Embraer 120RT Brasilia,Michigan,1997,25,10,2
+Embraer 120RT Brasilia,Texas,1991,13,13,2
+Fairchild F-27,Philippines,1968,17,16,2
+Fairchild F-27A,California,1964,14,43,2
+Fairchild F-27B,Alaska,1968,17,26,2
+Fairchild FH-227B,France,1989,21,17,2
+Fairchild-Hiller FH-227B,Missouri,1973,15,9,3
+Fairchild-Hiller FH-227B,West Virginia,1968,17,5,3
+Fokker 100,Brazil,1996,20,12,4
+Fokker 100,Brazil,1997,25,12,4
+Fokker 100,France,2007,10,17,4
+Fokker 100,Macedonia,1993,15,2,4
+Fokker 50,Luxembourg,2002,24,1,2
+Fokker F-27 Friendship 200,Pakistan,2003,20,4,2
+Fokker F-27 Friendship 200,Pakistan,2006,11,4,2
+Fokker F-27 Friendship 600,Myanmar,1998,20,2,4
+Fokker F-27 Friendship 600,Myanmar,1998,20,2,4
+Fokker F-28 Fellowship 1000,near Natanz,1994,21,1,3
+Fokker F-28 Fellowship 4000,Netherlands,1981,6,4,2
+Fokker F-28 Fellowship 4000,New York,1992,16,32,2
+Fokker F10A Trimotor,Kansas,1931,1,1,1
+Fokker F27 Friendship 100,Philippines,2002,24,16,1
+GAF Nomad N24A,Great Inagua,1991,13,1,1
+Gates Learjet 23,Michigan,1970,13,10,1
+Grumman G73T Turbo Mallard,Florida,2005,14,12,1
+Grummand Gulfstream III,Colorado,2001,25,11,1
+Handley Page HP-81 Hermes IV,Mauritania,1952,7,1,1
+Handley Page HPR-7 Herald 211,Canada,1965,18,13,1
+Harbin Yunshuji Y-12-II,Laos,2000,25,1,1
+Ilyushin IL-18,Switzerland,1971,12,5,2
+Ilyushin IL-18B,Czechoslovakia,1966,18,2,1
+Ilyushin IL-18D,France,1962,17,17,2
+Ilyushin IL-18D,Sichuan,1988,18,1,2
+LET 410UVP,Mexico,2001,25,7,1
+Let 420UVP-E,Haiti,2003,20,1,1
+Let L-410UVP,Russia,2003,20,25,1
+Let L410UVP-E20,Brazil,2006,11,12,1
+Lockheed  188A Electra,New York,1959,17,32,1
+Lockheed 049 Consellation,Ireland,1946,13,4,1
+Lockheed 049 Constellation,Illinois,1961,14,14,4
+Lockheed 049 Constellation,Nevada,1964,14,5,4
+Lockheed 049-46-21 Constellation,Syria,1947,11,2,1
+Lockheed 1049H Super Constellation,100 miles W of Galway Bay,1958,9,1,4
+Lockheed 1049H Super Constellation,Alaska,1962,17,26,4
+Lockheed 14H Super Electra,Montana,1938,6,8,1
+Lockheed 1649A Starliner,Algeria,1961,14,3,2
+Lockheed 18 Lodestar,Florida,1945,9,12,1
+Lockheed 188A Electra,Huanuco,1971,12,1,4
+Lockheed 188A Electra,Texas,1959,17,13,4
+Lockheed 188C Electra,Oklahoma,1966,18,3,2
+Lockheed 749 Constellation,France,1950,7,17,1
+Lockheed 749A Constellation,Peru,1966,18,8,3
+Lockheed C-69 Constellation,Virginia,1961,14,11,2
+Lockheed C-69 Constellation,West Virginia,1959,17,5,2
+Lockheed EC-121H,Massachusetts,1966,18,6,1
+Lockheed L-049-46 Constellation,Ireland,1948,7,4,1
+Lockheed L-1011 TriStar1,Florida,1972,17,12,1
+Lockheed L-188A Electra,Nevada,1985,16,5,1
+Lockheed L-188C Electra,Egypt,1961,14,6,2
+Lockheed Martin L-100-30 Hercules,Angola,1998,20,1,1
+MD DC-8-11 / Lockheed  1049 S Const,New York,1960,17,32,1
+MD Douglas DC-9-32/Convair CV-990A,France,1973,15,17,1
+MD-87 / Cessna 525A Citation II,Italy,2001,25,16,1
+MDonnell Douglas MD-81,Sweden,1991,13,2,1
+Martin 202,Arazona,1951,12,1,6
+Martin 404,New Mexico,1955,11,1,5
+Martin 404,Pennsylvania,1956,10,14,5
+Martin M-130 (flying boat),California,1943,6,43,3
+McDonnell Douglas DC-10-10,France,1974,11,17,6
+McDonnell Douglas DC-10-10,Illinois,1979,12,14,6
+McDonnell Douglas DC-10-10,Los Angeles,1978,11,2,6
+McDonnell Douglas DC-10-10,Mexico,1979,12,7,6
+McDonnell Douglas DC-10-30,Guatemala,1999,28,2,6
+McDonnell Douglas DC-10-30,Japan,1996,20,10,6
+McDonnell Douglas DC-10-30,Libya,1989,21,2,6
+McDonnell Douglas DC-10-30,Niger,1989,21,1,6
+McDonnell Douglas DC-10-30,Ross Ice Shelf,1979,12,1,6
+McDonnell Douglas DC-10-30CF,Algarve,1992,16,1,3
+McDonnell Douglas DC-10-30CF,Spain,1982,12,11,3
+McDonnell Douglas DC-8-12,Colorado,1961,14,11,1
+McDonnell Douglas DC-8-21,New Orleans,1964,14,1,2
+McDonnell Douglas DC-8-33,Liberia,1967,18,2,1
+McDonnell Douglas DC-8-43,Barbados,1976,10,1,4
+McDonnell Douglas DC-8-43,Maharashtra,1962,17,3,4
+McDonnell Douglas DC-8-43,Sicily,1972,17,2,4
+McDonnell Douglas DC-8-51,Louisiana,1967,18,3,1
+McDonnell Douglas DC-8-53,India,1972,17,8,2
+McDonnell Douglas DC-8-61,Guantanamo Bay,1993,15,1,3
+McDonnell Douglas DC-8-61,Japan,1982,12,10,3
+McDonnell Douglas DC-8-62,California,1968,17,43,3
+McDonnell Douglas DC-8-62,Russia,1972,17,25,3
+McDonnell Douglas DC-8-63AF,Japan,1970,13,10,1
+McDonnell Douglas DC-8F-54F,Canada,1963,17,13,1
+McDonnell Douglas DC-9-14,Colorado,1987,12,11,5
+McDonnell Douglas DC-9-14,Texas,1972,17,13,5
+McDonnell Douglas DC-9-14,Wisconsin,1985,16,4,5
+McDonnell Douglas DC-9-31,Boston,1973,15,1,6
+McDonnell Douglas DC-9-31,Georgia,1977,7,6,6
+McDonnell Douglas DC-9-31,Mexico,2000,25,7,6
+McDonnell Douglas DC-9-32,Canada,1978,11,13,12
+McDonnell Douglas DC-9-32,Czechoslovakia,1972,17,2,12
+McDonnell Douglas DC-9-32,Indonesia,1987,12,18,12
+McDonnell Douglas DC-9-32,Miami,1996,20,1,12
+McDonnell Douglas DC-9-32,Switzerland,1990,14,5,12
+McDonnell Douglas DC-9-32,Venezuela,1991,13,8,12
+McDonnell Douglas MD-11,China,1999,28,12,4
+McDonnell Douglas MD-11,Japan,2009,6,10,4
+McDonnell Douglas MD-11,Nova Scotia,1998,20,2,4
+McDonnell Douglas MD-81,near Ajaccio,1981,6,1,1
+McDonnell Douglas MD-82,Arkansas,1999,28,3,8
+McDonnell Douglas MD-82,China,1993,15,12,8
+McDonnell Douglas MD-82,New York,1994,21,32,8
+McDonnell Douglas MD-82,Thailand,2007,10,10,8
+McDonnell Douglas MD-83,California,2000,25,43,2
+McDonnell Douglas MD-88,Florida,1996,20,12,1
+McDonnell Douglas MD-90-30,Taiwan,1999,28,9,1
+NAMC-YS-11-111,Japan,1966,18,10,1
+Nord 262,West Virginia,1979,12,5,1
+Piper PA-31-350,Sweden,1999,28,2,2
+Piper PA-31-350 Navajo Chieftain,Hawaii,1999,28,8,4
+Piper PA-31-350 Navajo Chieftain,New Brunswick,1996,20,1,4
+Piper PA-32-R301 Saratoga II HP,Massachusetts,1999,28,6,1
+Saab 340B,Switzerland,2000,25,5,2
+Shorts 330-200,France,2000,25,17,1
+Shorts 360-100,Scotland,2001,25,3,1
+Sikorsky S-42 (flying boat),U.S. Samoa,1938,6,1,2
+Sikorsky S-42B (flying boat),Puerto Rico,1941,5,5,1
+Sikorsky S-43 (flying boat),Martinique,1945,9,1,1
+Stinson Model A,Texas,1935,3,13,1
+Sud Aviation Caravelle 1,Turkey,1960,17,8,1
+Sud-Aviation Caravelle 10-R,Spain,1973,15,11,1
+Sud-Aviation Caravelle 3,France,1968,17,17,1
+Sud-Aviation Caravelle III,Aargau,1963,17,1,2
+Swear. SA-227CC Metro 23/Piper Navajo,Ontario,1995,19,3,1
+Swearingen SA-226AT Merlin IV,Spain,2001,25,11,1
+Swearingen SA-226TC / Mooney M-20C,Utah,1987,12,9,1
+Swearingen SA-226TC Metroliner II,Canada,1998,20,13,1
+Swearingen SA.227AC Metro III,Germany,1988,18,4,2
+Swearingen SA227-AC,North Carolina,1988,18,7,1
+Swearingen SA227AT Merlin IVC,Washington,2003,20,11,1
+Tupelov 134AK,Russia,2007,10,25,1
+Tupolev 134A-3,Russia,2004,18,25,1
+Tupolev TU-104A,Kazakastan,1977,7,1,1
+Tupolev TU-134A,Thailand,1988,18,10,3
+Tupolev TU-134A,Yugoslavia,1971,12,1,3
+Tupolev TU-154,United Arab Emirates,1997,25,3,3
+Tupolev TU-154B,Kasakastan,1980,7,1,3
+Tupolev TU-154B,Russia,1984,5,25,3
+Tupolev TU-154M,Ecuador,1998,20,4,5
+Tupolev Tu-154M,Ukraine,2006,11,2,2
+Vickers Vanguard 951,West Vlaanderen,1971,12,1,1
+Vickers Viscount 708,France,1963,17,17,1
+Vickers Viscount 720,WA,1968,17,1,1
+Vickers Viscount 724,Loire,1972,17,1,1
+Vickers Viscount 745D,Maryland,1959,17,6,5
+Vickers Viscount 745D,Maryland,1962,17,6,5
+Vickers Viscount 745D,Michigan,1958,9,10,5
+Vickers Viscount 745D,Virginia,1960,17,11,5
+Vickers Viscount 755D,Cuba,1958,9,4,1
+Vickers Viscount 782D,Rhodesia (Zimbabwe),1978,11,1,1
+Vickers Viscount 785D,Colombia,1974,11,1,2
+Vickers Viscount 812,Missouri,1963,17,9,1
+Vickers Viscount 818,South Africa,1967,18,3,1
+Xian Yunshuji Y-7-100C,China,2000,25,12,1
+Yakovlev YAK-40,Cuba,1990,14,4,3
+Yakovlev YAK-42,USSR,1982,12,1,2
+Yakovlev YAK-42D,Jiangsu,1992,16,1,3
+Yakovlev YAK-42D,Venezuela,1999,28,8,3
+de Hav Can. DHC-6 Tw Otter 100/ Cessna,California,1975,5,43,1
+de Havilland Canada DHC-6 Twin Otter,St. Barthélémy,2001,25,1,1
+de Havilland Canada DHC-6 Twin Otter 100,Connecticut,1970,13,4,1
+de Havilland Canada DHC-6 Twin Otter 200,Alaska,1977,7,26,2
+de Havilland Canada DHC-6 Twin Otter 300,French Polynesia,2007,10,1,13
+de Havilland Canada DHC-6 Twin Otter 300,Islay Island,1986,9,1,13
+de Havilland Canada DHC-6 Twin Otter 300,Nepal,1995,19,6,13
+de Havilland Canada DHC-6 Twin Otter 300,Newfoundland,1999,28,4,13
+de Havilland Canada DHC-6 Twin Otter 300,Samoa,1997,25,1,13
+de Havilland Canada DHC-8-301,France,1993,15,17,1
+de Havilland Comet 4B,Greece,1967,18,5,1
+de Havilland Comet 4C,Maharashtra,1963,17,3,2
+de Havilland DH-114 Heron 2B,Puerto Rico,1972,17,5,1
+de Havilland DH106 Comet 1,West Bengal,1953,11,1,3
+de Havilland DHC -6-100,Rhode Island,1982,12,1,1
+de Havilland DHC-6 Twin Otter 300,Nepal,2004,18,6,2
