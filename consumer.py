@@ -3,13 +3,12 @@ from pyspark.sql.functions import *
 from pyspark.sql.functions import from_json
 from pyspark.sql.types import StructType, StringType, IntegerType , StructField
 import pymysql
+import time
 #Type	Location	Date	CrashesInYear	CrashesInPlace	FailureRate
 
 #conn = pymysql.connect(host=host, port=port, user=username, passwd=password, db=database)
 #cursor = conn.cursor()
-
-def insertDB(row):
-    # Define the connection details for your PHPMyAdmin database
+def establishConnection():
     host = "localhost"
     port = 3306
     database = "bigdataproj"
@@ -17,6 +16,20 @@ def insertDB(row):
     password = ""
     
     conn = pymysql.connect(host=host, port=port, user=username, passwd=password, db=database)
+    return conn
+
+def createNewTables(targetTable,newTableName,colList):
+    conn = establishConnection()
+    cursor = conn.cursor()
+    colNames = ','.join(colList)
+    query= fr"CREATE TABLE {newTableName} as select {colNames} from {targetTable}"
+    cursor.execute(query)
+    conn.commit()
+    conn.close()
+
+def insertDB(row):
+
+    conn = establishConnection()
     cursor = conn.cursor()
 
     # Extract the required columns from the row
@@ -33,10 +46,16 @@ def insertDB(row):
     
     # Execute the SQL query
     cursor.execute(sql_query)
+   
+
+    
 
     # Commit the changes
     conn.commit()
+    
     conn.close()
+    
+
 
 # Create a Spark session
 spark = SparkSession.builder \
@@ -47,6 +66,8 @@ spark.sparkContext.setLogLevel('WARN')
 
 # Define the schema for your DataFrame
 schema = StructType().add("Type", StringType(),True).add("Location", StringType(),True).add("Date", StringType(),True).add("CrashesInYear", StringType(),True).add("CrashesInPlace", StringType(),True).add("FailureRate", StringType(),True)
+
+
 
 # Read data from Kafka topic as a DataFrame
 df = spark.readStream \
@@ -66,6 +87,16 @@ query = df.writeStream \
     .foreach(insertDB) \
     .start()
 
-# Wait for the query to finish
-query.awaitTermination()
+
+
+# Wait for the query to finish after 2 minutes
+query.awaitTermination(120)
+
+createNewTables('output','CrashesInYear',['distinct(date)','crashesInYear'])
+createNewTables('output','CrashesInPlace',['distinct(location)','crashesInPlace'])
+createNewTables('output','FailureRate',['distinct(type)','failureRate'])
+
+
+
+
 
