@@ -66,23 +66,6 @@ spark.sparkContext.setLogLevel('WARN')
 # Define the schema for your DataFrame
 datasetSchema = StructType().add("Date", StringType(),True).add("Location", StringType(),True).add("Operator",StringType(),True).add("Type", StringType(),True).add("Aboard", StringType(),True).add("Fatalities", StringType(),True)
 
-
-
-# df = df.withColumn("Date", substring(df["Date"], 7, 4))
-
-# CrashesInYear = df.groupBy("Date").count()
-# CrashesInYear = CrashesInYear.withColumnRenamed("count", "CrashesInYear")
-# df = df.join(CrashesInYear, "Date", "left_outer")
-# df = df.withColumn("Location", split("Location", ",").getItem(1))
-# CrashesInPlace = df.groupBy("Location").count()
-# CrashesInPlace = CrashesInPlace.withColumnRenamed("count", "CrashesInPlace")
-# df = df.join(CrashesInPlace, "Location", "left_outer")
-# FailureRate = df.groupBy("Type").count()
-# FailureRate = FailureRate.withColumnRenamed("count", "FailureRate")
-# df = df.join(FailureRate, "Type", "left_outer")
-
-
-
 # Read data from Kafka topic as a DataFrame
 df = spark.readStream \
     .format("kafka") \
