@@ -89,7 +89,7 @@ query = finalDF.writeStream \
 
 
 
-# Wait for the query to finish after 2 minutes then create the new tables
+# Wait for the query to finish after 3 minutes then create the new tables
 query.awaitTermination(180)
 
 createNewTables(fr"CREATE TABLE crashesinyear as select distinct(date),count(*) as crashesInYear from output group by date;")
