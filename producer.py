@@ -1,30 +1,43 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
-from pyspark.sql.types import StructType, StringType, IntegerType
+from pyspark.sql.types import *
 
-#Type	Location	Date	CrashesInYear	CrashesInPlace	FailureRate
+DATA_PATH = "C:\\Users\\Ahmed\\OneDrive\\Desktop\\SingleTable\\datasets"
+
+
 
 # Create a Spark session
 spark = SparkSession.builder \
-    .appName("KafkaConsumer") \
+    .appName("PySparkProducer") \
     .getOrCreate()
 
 spark.sparkContext.setLogLevel('WARN')
 
-# Define the schema for your DataFrame
-schema = StructType().add("Type", StringType(),True).add("Location", StringType(),True).add("Date", StringType(),True).add("CrashesInYear", StringType(),True).add("CrashesInPlace", StringType(),True).add("FailureRate", StringType(),True)
+#EXTRACT STAGE 
+
+# Define the schema for the DataFrame
+datasetSchema = StructType().add("Date", StringType(),True).add("Location", StringType(),True).add("Operator",StringType(),True).add("Type", StringType(),True).add("Aboard", StringType(),True).add("Fatalities", StringType(),True)
 
 # Read data from a directory as a streaming DataFrame
-streamDf = spark.readStream.format("csv").schema(schema).option("header","true").option("path", "C:\\Users\\Ahmed\\OneDrive\\Desktop\\SingleTable\\datasets").load()
+initialDF = spark.readStream.format("csv").schema(datasetSchema).option("header","true").option("path", DATA_PATH).load()
 
-# Select specific columns from "data"
-cols = streamDf.select("Type","Location", "Date","CrashesInYear", "CrashesInPlace","FailureRate")
+#TRANSFORMATION STAGE (At Producer)
+columnsToFill = {
+    "Location": mode(col("Location")),
+    "Operator": mode(col("Operator")),
+    "Type": mode(col("Type")),
+    "Aboard": mean(col("Aboard")),
+    "Fatalities": mean(col("Fatalities"))
+}
 
+finalDF = initialDF.fillna('Location', subset=['Location']).fillna('Operator', subset=['Operator']).fillna('Type', subset=['Type']).fillna('Aboard', subset=['Aboard']).fillna('Fatalities', subset=['Fatalities'])
+
+cols = finalDF.select("Date","Location", "Operator","Type", "Aboard","Fatalities")
 # Convert the selected columns to JSON and alias the column as "value"
-df = streamDf.select(to_json(struct("Type","Location", "Date","CrashesInYear", "CrashesInPlace","FailureRate")).alias("value"))
+streamingDF = finalDF.select(to_json(struct("Date","Location", "Operator","Type", "Aboard","Fatalities")).alias("value"))
 
 # Convert the value column to string and display the result
-query = df.selectExpr("CAST(value AS STRING)") \
+query = streamingDF.selectExpr("CAST(value AS STRING)") \
     .writeStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", "localhost:9092") \
@@ -34,3 +47,4 @@ query = df.selectExpr("CAST(value AS STRING)") \
 
 # Wait for the query to finish
 query.awaitTermination()
+
