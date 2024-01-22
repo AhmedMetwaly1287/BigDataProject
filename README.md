@@ -1,4 +1,3 @@
-
 <h1>Simple ETL Pipeline</h1>
 
 <h2>Overview</h2>
@@ -7,7 +6,7 @@
 
 <h2>Project Details</h2>
 
-<p>The project encapsulates a workflow that integrates various technologies and libraries, Below is a detailed breakdown of the tools and their specific roles in the pipeline:</p>
+<p>The project demonstrates a workflow that integrates various technologies and libraries, Below is a detailed breakdown of the tools and their specific roles in the pipeline:</p>
 
 <h3>Tools Used</h3>
 
