@@ -91,3 +91,6 @@
         </ul>
     </li>
 </ol>
+
+![image](https://github.com/AhmedMetwaly1287/SimpleETLPipeline/assets/139663311/aaed75ff-b573-455c-913b-b09bbcb92403)
+
