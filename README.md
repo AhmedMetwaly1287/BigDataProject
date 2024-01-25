@@ -92,5 +92,6 @@
     </li>
 </ol>
 
-![image](https://github.com/AhmedMetwaly1287/SimpleETLPipeline/assets/139663311/aaed75ff-b573-455c-913b-b09bbcb92403)
+![image](https://github.com/AhmedMetwaly1287/SimpleETLPipeline/assets/139663311/fbc105fe-f1f6-4fa0-8af9-6956d9fc272e)
+
 
