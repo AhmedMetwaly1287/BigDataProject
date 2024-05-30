@@ -91,7 +91,18 @@
     </ul>
 </li>
 </ol>
+<h3>To-Do:</h3>
+<ul>
+    
+Refactor the code to be more optimized
 
-![image](https://github.com/AhmedMetwaly1287/SimpleETLPipeline/assets/139663311/fbc105fe-f1f6-4fa0-8af9-6956d9fc272e)
+Add Data Quality Checks
+
+Add Logging for each processed patch of data
+
+</ul>
+
+![image](https://github.com/AhmedMetwaly1287/AirplaneCrashesETL/assets/139663311/7b2b56ea-68e8-4816-89f9-55dc103d778c)
+
 
 
