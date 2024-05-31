@@ -100,6 +100,8 @@ Add Data Quality Checks
 
 Add Logging for each processed patch of data
 
+Enhance the Data Visualization to create a more interactive, in depth and dynamic dashboard
+
 </ul>
 
 ![image](https://github.com/AhmedMetwaly1287/AirplaneCrashesETL/assets/139663311/7b2b56ea-68e8-4816-89f9-55dc103d778c)
