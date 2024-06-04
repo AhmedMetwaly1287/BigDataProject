@@ -1,12 +1,9 @@
 from pyspark.sql import SparkSession,functions as f,types
+import pymysql
 from datetime import datetime
 import os
 
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
-KAFKA_TOPIC = 'airplanecrashes'
-
 DATA_PATH = "C:\\Users\\Ahmed\\OneDrive\\Desktop\\AirplaneCrashes\\Datasets"
-PROC_DATA_PATH = "C:\\Users\\Ahmed\\OneDrive\\Desktop\\AirplaneCrashes\\ProcessedDS"
 
 CURRENT_DATE = datetime.today().strftime('%d-%m-%Y')  
 CURRENT_TIME = datetime.now().strftime('%H:%M:%S')  
@@ -16,14 +13,40 @@ LOG_NAME = f"{CURRENT_DATE}-Log.txt"
 
 CURR_LOG_FILE = os.path.join(LOG_DIR, LOG_NAME)
 
+DATABASE_NAME = "airplanecrashes"
+DATABASE_TABLE= "output"
+
 spark = SparkSession.builder \
-    .appName("PySparkProducer") \
+    .appName("SparkETL") \
     .getOrCreate()
 
 spark.sparkContext.setLogLevel('WARN')
 
-#Extracting the Data from the Dataset residing in the datasets directory, automatically inferring the schema using the header option
-df = spark.read.format("csv").option("header","true").load(DATA_PATH)
+def ExtractData(path):
+    #Extracting the Data from the Dataset residing in the datasets directory, automatically inferring the schema using the header option
+    df = spark.read.format("csv").option("header","true").load(DATA_PATH)
+    return df
+
+def TransformData(df):
+    TransformedDF = df\
+    .withColumn("ID",f.monotonically_increasing_id())\
+    .withColumn("Aboard",f.col("Aboard").astype("int"))\
+    .withColumn("Fatalities",f.col("Fatalities").astype("int"))\
+    .select("ID","Date","Location", "Operator","Type", "Aboard","Fatalities")
+    return TransformedDF
+
+def LoadData(df,dbName,dbTable):
+    df.write.format("jdbc") \
+    .option("url", f"jdbc:mysql://localhost:3306/{dbName}") \
+    .option("dbtable", f"{dbTable}") \
+    .option("user", "root") \
+    .option("password", "") \
+    .mode("overwrite") \
+    .save()
+
+
+
+df = ExtractData(DATA_PATH)
 
 print("Data read from source.")
 
@@ -31,11 +54,7 @@ print("Data read from source.")
 FilteredDF = df.select("Date","Location", "Operator","Type", "Aboard","Fatalities")
 
 #First Transformation Stage 
-TransformedDF = FilteredDF\
-    .withColumn("ID",f.monotonically_increasing_id())\
-    .withColumn("Aboard",f.col("Aboard").astype("int"))\
-    .withColumn("Fatalities",f.col("Fatalities").astype("int"))\
-    .select("ID","Date","Location", "Operator","Type", "Aboard","Fatalities")
+TransformedDF = TransformData(FilteredDF)
 
 #Preparing a list to store the columns that contain null values, an object to store it in the form of {ColName:[Row IDs of null values]}
 NullCols = []
@@ -57,21 +76,24 @@ with open(CURR_LOG_FILE,"w") as file:
 
 print("Log File Created, Information about Data before transformation written to it.")
 
-#Logging after Transformation
-TIME_AFTER_TRANSFORMATION = datetime.now().strftime('%H:%M:%S') 
-
 #Second Stage of Transformation (There are many ways to handle NULL Values, but looking at the fact that this is historical data, 
 #NULL Values cannot be handled Using traditional ways as this would be historically inaccurate)
 #However, Issues relating to data types of columns have been handled
 FinalDF = TransformedDF.dropna()
+
+#Logging after Transformation
+TIME_AFTER_TRANSFORMATION = datetime.now().strftime('%H:%M:%S') 
 
 with open(CURR_LOG_FILE, "a") as file:
     file.write(f"{TIME_AFTER_TRANSFORMATION} - SUCCESS - Data Transformed Successfully!")
 
 print("Information about Data after transformation appended to file successfully.")
 
-FinalDF.write.format("csv").option("header","true").mode("overwrite").save(PROC_DATA_PATH)
+#Loading the data into the MySQL Database
+LoadData(FinalDF,DATABASE_NAME,DATABASE_TABLE)
 
-print(f"Transformed Dataset saved to {PROC_DATA_PATH}")
+print("Data inserted into database successfully")
+
+spark.stop()
 
 
