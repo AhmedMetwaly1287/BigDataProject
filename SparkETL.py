@@ -96,4 +96,6 @@ print("Data inserted into database successfully")
 
 spark.stop()
 
+spark.stop()
+
 
