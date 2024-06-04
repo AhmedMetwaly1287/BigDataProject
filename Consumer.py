@@ -24,7 +24,7 @@ df.write.format("jdbc") \
 
 print("Data inserted into database successfully")
 
-
+spark.stop()
 
 
 
