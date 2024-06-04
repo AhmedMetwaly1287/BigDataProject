@@ -74,4 +74,6 @@ FinalDF.write.format("csv").option("header","true").mode("overwrite").save(PROC_
 
 print(f"Transformed Dataset saved to {PROC_DATA_PATH}")
 
+spark.stop()
+
 
