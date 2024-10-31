@@ -1,0 +1,3 @@
+2024-10-10 18:24:12,528 - ERROR - EXTRACT - Error reading the file: [PATH_NOT_FOUND] Path does not exist: file:/e:/Work/Pending Projects/DWHSpark/saghaga.
+2024-10-10 18:24:34,505 - ERROR - EXTRACT - Unsupported file format: gasoughas
+2024-10-10 18:43:45,314 - ERROR - EXTRACT - Error reading the file: [PATH_NOT_FOUND] Path does not exist: file:/e:/Work/Pending Projects/DWHSpark/Data/raw/transactions.json.

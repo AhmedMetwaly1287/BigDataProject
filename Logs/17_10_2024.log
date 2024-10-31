@@ -1,0 +1,38 @@
+2024-10-17 14:19:11,498 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:19:11,498 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:19:36,125 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:19:36,125 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:22:16,957 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:22:16,957 - ERROR - EXTRACT - Error reading the file: options() argument after ** must be a mapping, not str
+2024-10-17 14:22:54,834 - ERROR - EXTRACT - Error reading the file: [PATH_NOT_FOUND] Path does not exist: file:/e:/Work/Pending Projects/ETLRework/Data/raw/raw.csv.
+2024-10-17 14:22:54,834 - ERROR - EXTRACT - Error reading the file: [PATH_NOT_FOUND] Path does not exist: file:/e:/Work/Pending Projects/ETLRework/Data/raw/raw.csv.
+2024-10-17 19:44:11,056 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:44:11,056 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:44:11,056 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:45:35,407 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:45:35,407 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:45:35,407 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:47:41,122 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:47:41,122 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:47:41,122 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:48:35,959 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:48:35,959 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:48:35,959 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:49:35,837 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:49:35,837 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:49:35,837 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:53:49,524 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:53:49,524 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:53:49,524 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:54:52,017 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:54:52,017 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:54:52,017 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:55:30,778 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:55:30,778 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:55:30,778 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:56:43,743 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:56:43,743 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:56:43,743 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:57:34,970 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:57:34,970 - ERROR - LOAD - Error occured while loading data to the database
+2024-10-17 19:57:34,970 - ERROR - LOAD - Error occured while loading data to the database
