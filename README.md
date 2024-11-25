@@ -18,6 +18,7 @@ This project demonstrates an **end-to-end ETL (Extract, Transform, Load) pipelin
   - [Load](#load)
   - [Data Quality Checks](#data-quality-checks)
 - [Power BI Dashboard](#power-bi-dashboard)
+- [Disclaimer](#disclaimer)
 
 ---
 
@@ -66,21 +67,22 @@ The **Airplane Crashes ETL Project** automates the workflow for ingesting, clean
 
 ### Steps
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/AhmedMetwaly1287/AirplaneCrashes.git
-   cd AirplaneCrashes
-   ```
+```bash
+git clone https://github.com/AhmedMetwaly1287/AirplaneCrashes.git
+cd AirplaneCrashes
+```
 2. Install Python dependencies:
-
 ```bash
 pip install pyspark great_expectations pymysql
 ```
+- NOTE: Ensure your Apache Spark and PySpark versions match (in my case, it was version 3.5.0)
 
 3. Set up MySQL and create a database:
-
 ```sql
 CREATE DATABASE AirplaneCrashes;
 ```
+- NOTE: Ensure you have the MySQL Connector JAR file installed in the **jars** folder in the directory where Spark is installed.
+  
 4. Configure great_expectations for data quality checks
 ```python
 import great_expectations as gx
@@ -96,7 +98,7 @@ The Extract function loads data from flat files into a Spark DataFrame.
 from Extract import Extract
 
 df = Extract(
-    filepath="data/raw/dataset.csv", 
+    filepath="Data/raw/dataset.csv", 
     format="csv", 
     options={"header": "true", "inferSchema": "true"}
 )
@@ -136,4 +138,8 @@ The Power BI dashboard offers:
 - Detailed Tooltips: Hover over any chart for deeper insights. 
 
 ![image](https://github.com/user-attachments/assets/69580c5f-6c5c-4c4e-9803-81cbaf1f582e)
+
+## Disclaimer
+
+This project reflects my improvements, it was initially created as a task for my **Big Data Technologies (IS 365)** university course, it has gone through a lot of improvements and will go through a lot of improvements, it is my first ever project using Big Data/Data Tools so your feedback is highly appreciated and so is your participation!
 
