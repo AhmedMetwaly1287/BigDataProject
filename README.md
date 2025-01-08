@@ -105,8 +105,7 @@ df = Extract(
 ```
 ### Transform
 The Transform function performs cleaning and enrichment operations, tailored to the dataset.
-```
-python
+```python
 from Transform import Transform
 
 transformed_df = Transform(df)
@@ -114,8 +113,7 @@ transformed_df = Transform(df)
 
 ### Load
 The Load function writes the processed data into a MySQL table.
-```
-python
+```python
 from Load import Load
 
 Load(
